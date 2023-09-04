@@ -18,7 +18,7 @@ library
     MyLib
 
   default-extensions: UnicodeSyntax
-  build-depends:      base ^>=4.17.0.0
+  build-depends:      base ^>=4.18.0.0
   hs-source-dirs:     src
   default-language:   GHC2021
 
@@ -27,7 +27,7 @@ executable tour-de-haskell
   main-is:            Main.hs
   default-extensions: UnicodeSyntax
   build-depends:
-    , base             ^>=4.17.0.0
+    , base             ^>=4.18.0.0
     , tour-de-haskell
 
   hs-source-dirs:     app
@@ -40,5 +40,5 @@ test-suite tour-de-haskell-test
   hs-source-dirs:   test
   main-is:          Main.hs
   build-depends:
-    , base             ^>=4.17.0.0
+    , base             ^>=4.18.0.0
     , tour-de-haskell
