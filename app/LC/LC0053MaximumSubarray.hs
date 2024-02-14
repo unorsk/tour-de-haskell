@@ -8,6 +8,6 @@ maxSubArray a =
     (maxSum, current)) (a !! 0, 0) a
 
 main :: IO ()
--- main = print (maxSubArray [-2,1,-3,4,-1,2,1,-5,4])
+main = print (maxSubArray [-2,1,-3,4,-1,2,1,-5,4])
 -- main = print (maxSubArray [1])
 -- main = print (maxSubArray [5,4,-1,7,8])
